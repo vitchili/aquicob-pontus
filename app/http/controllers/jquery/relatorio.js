@@ -7,7 +7,7 @@ $("#gera_relatorio").click(function() {
 
     var tipo_pesquisa = $("#tipo_pesquisa").val();
 
-    $.post('/app/http/controllers/Relatorio_Controller.php', {
+    $.post('/aquicob-pontus/app/http/controllers/Relatorio_Controller.php', {
         pesquisa_geral: pesquisa_geral,
         chave_pesquisa: chave_pesquisa,
         tipo_pesquisa: tipo_pesquisa

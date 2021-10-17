@@ -12,7 +12,7 @@ function set_entrada(entrada_saida){
         if (result.isConfirmed) {
           Swal.fire('Marcação lançada!', '', 'success');
           
-          $.post('/app/http/controllers/Sistema_Ponto_Controller.php', {
+          $.post('/aquicob-pontus/app/http/controllers/Sistema_Ponto_Controller.php', {
             entrada_saida: entrada_saida,
             observacao: observacao
           }, function(resposta){

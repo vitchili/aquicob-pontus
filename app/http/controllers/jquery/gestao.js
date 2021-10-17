@@ -85,7 +85,7 @@ $("#cadastrar_novo_funcionario").click(function() {
     if (result.isConfirmed) {
       Swal.fire('Funcionário cadastrado!', '', 'success');
       
-      $.post('/app/http/controllers/Cadastro_Funcionario_Controller.php', {
+      $.post('/aquicob-pontus/app/http/controllers/Cadastro_Funcionario_Controller.php', {
         cadastrar: cadastrar,
         nome: nome,
         email: email,
