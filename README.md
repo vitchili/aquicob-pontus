@@ -1,4 +1,4 @@
-Instruções de utilização para o AQUICOB PONTUS:
+Instruções de utilização para o AQUICOB PONTUS: PHP sem frameworks
 
 O sistema foi projetado com duas perspectivas de utilização: a do gestor e do colaborador.
 Sendo assim, os menus laterais são restritos por tipo de usuário. Apenas Colaboradores realizam marcações de ponto, e apenas Gestores realizam o cadastro de novos funcionários.
